@@ -1,0 +1,85 @@
+.box-background {
+  position: relative;
+}
+
+.recipe-card {
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 550px;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  top: 250px;
+  left: 200px;
+  border: 2.5px dotted #ff4081;
+}
+
+.recipe-header-box {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-header {
+  width: 50%;
+  background-color: #ffc415;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.recipe-title {
+  font-size: 16px;
+  color: #5d4600;
+  padding: 20px;
+}
+
+.recipe-name {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #ff4081;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.recipe-description {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: #444;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.recipe-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.author {
+  font-size: 14px;
+  color: #5d4600;
+  margin-bottom: 10px;
+}
+
+.view-button {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color: #ff4081;
+  padding: 12px 22px;
+  border-radius: 15px;
+}
+
+.view-button:hover {
+  background-color: #ff4081;
+  color: white;
+}

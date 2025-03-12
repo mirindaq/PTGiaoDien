@@ -1,0 +1,76 @@
+.food-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.food-card {
+  display: flex;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+}
+
+.food-card-left {
+  flex: 1;
+  position: relative;
+}
+
+.food-card-img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.food-card-right {
+  flex: 2;
+  padding: 16px;
+}
+
+.food-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.food-card-time {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 12px;
+}
+
+.food-card-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.author-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.food-card-author-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.food-card-description {
+  font-size: 14px;
+  color: #616161;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.btn-bookmark {
+  background-color: #ffffff;
+  border-color: #f44b87;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .filters {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .no-results {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .no-results h2 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .no-results img {
+    width: 150px;
+    margin: 20px 0;
+  }
+  
+  .suggestions span {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .apply-btn {
+    background-color: #ff4d79;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

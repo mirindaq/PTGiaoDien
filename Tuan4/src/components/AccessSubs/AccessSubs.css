@@ -1,0 +1,14 @@
+.block {
+    text-align: center;
+    border: 1px solid rgb(212, 203, 203);
+    padding: 20px;
+}
+
+.titleChild {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.text {
+    font-size: 19px;
+}
